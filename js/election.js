@@ -4,11 +4,12 @@ function removeThirdElementFromArray(arr){
 var newArr = [];
   for (var x = 0; x < arr.length; x++){
     if(newArr % 3 === 0){
-
+      newArr.splice();
     }
   }
 return newArr;
 }
+console.log(removeThirdElementFromArray(electionVotes));
 
 
 
